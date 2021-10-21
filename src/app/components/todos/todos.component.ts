@@ -10,7 +10,9 @@ export class TodosComponent implements OnInit {
   inputTodo: string = "";
 
   constructor() { }
-
+  refresh(): void {
+    window.location.reload();
+}
   ngOnInit(): void {
     this.todos = [
     ]

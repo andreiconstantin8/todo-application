@@ -45,12 +45,20 @@
 	border: none;
 	outline: none;
 	background: none;
-
-	background-color: #FE4880;
+	background-color: #08b608;
 	color: #FFF;
 	margin: 15px auto;
-
 	padding: 10px 15px;
 	font-size: 18px;
 	font-weight: 700;
+}
+.todo-delete {
+	display: block;
+	width: 100%;
+	max-width: 100px;
+	border: none;
+	outline: none;
+	background: none;
+	background-color: #08b608;	
+	color:white;
 }
